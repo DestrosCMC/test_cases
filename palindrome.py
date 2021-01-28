@@ -4,12 +4,12 @@
 def is_Palindrome(word):
     '''
     Returns if a string is a palindrome.
-    >>> is_Palindrome
-    1
-    >>> factorial(2)
-    2
-    >>> factorial(3)
-    6
+    >>> is_Palindrome('a')
+    True
+    >>> is_Palindrome('yes')
+    False
+    >>> is_Palindrome('qwertyYtrewq') 
+    True
     >>> factorial(4)
     24
     >>> factorial(40)
